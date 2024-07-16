@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'ro.alexmamo.firebasesigninwithemailandpassword'
+    namespace 'com.firebasesigninwithemailandpassword'
     compileSdk 34
 
     defaultConfig {
-        applicationId "ro.alexmamo.firebasesigninwithemailandpassword"
+        applicationId "com.firebasesigninwithemailandpassword"
         minSdk 26
         targetSdk 34
         versionCode 1
@@ -54,4 +54,6 @@ dependencies {
     //Firebase
     implementation platform("com.google.firebase:firebase-bom:$firebase_bom_version")
     implementation "com.google.firebase:firebase-auth-ktx"
+
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.8")
 }

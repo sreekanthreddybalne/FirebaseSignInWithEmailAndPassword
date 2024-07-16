@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "843716004078",
+    "firebase_url": "https://xomoro-9676-default-rtdb.firebaseio.com",
+    "project_id": "xomoro-9676",
+    "storage_bucket": "xomoro-9676.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843716004078:android:2c7c26f122a0a8e6190bff",
+        "android_client_info": {
+          "package_name": "com.firebasesigninwithemailandpassword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843716004078-pv9c8s87u8lfq2sf0rira3ivtej83bmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-MjRkhWYsFZl3ddsVc7ct0U8WY5UU_uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843716004078-pv9c8s87u8lfq2sf0rira3ivtej83bmb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
