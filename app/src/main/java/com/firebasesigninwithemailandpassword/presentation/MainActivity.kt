@@ -14,6 +14,7 @@ import com.firebasesigninwithemailandpassword.navigation.NavGraph
 import com.firebasesigninwithemailandpassword.navigation.Screen.HomeScreen
 import com.firebasesigninwithemailandpassword.navigation.Screen.SignInScreen
 import com.firebasesigninwithemailandpassword.navigation.Screen.VerifyEmailScreen
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 @AndroidEntryPoint
 @ExperimentalComposeUiApi
@@ -23,6 +24,8 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        installSplashScreen()
+
         setContent {
             navController = rememberNavController()
             NavGraph(
